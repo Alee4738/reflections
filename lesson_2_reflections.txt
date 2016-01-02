@@ -9,3 +9,31 @@ The staging area takes files from the working directory and puts them into the
 repository. It is Git's way of creating a single commit from the files while
 still giving you the power to choose which files go into a commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+Before you commit, you can use "git diff --staged" to see the difference
+between your last commit and what you are about to commit (which is in the 
+staging area).
+
+What are some situations when branches would be helpful in keeping your
+ history organized? How would branches help?
+If you want to have 2 working versions of your program, you can create 
+branches. For example, if you want to work on an experimental version of your 
+game, but want to still have the current working one still work, you can 
+use "git branch exp" to create a branch called exp, which will allow you to 
+work on that branch without changing the master branch (after you checkout 
+to exp using "git checkout exp").
+
+How do the diagrams help you visualize the branch structure?
+They help you see what changes came at what time so you can trace through.
+
+What is the result of merging two branches together? Why do we represent
+ it in the diagram the way we do?
+It adds the edits of two different files together. when a conflict is discovered, 
+you have to manually use the editor to tell Git what you want it to be. 
+We represent it the way we do because the final commit is a combination of both
+branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Sometimes the changes don't affect each other, so automatic merging is fine.
+Cons: Sometimes, the changes do affect each other, so doing it manually would be safer.
+
