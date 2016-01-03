@@ -19,3 +19,10 @@ You know the commit you last pulled from GitHub. It is possible that other peopl
 the online repository while you worked on yours locally, so they'd be different, and Git
 needs a way to track when your guys' branches diverged.
 
+How would you collaborate without using Git or GitHub? What would be easier,
+ and what would be harder?
+Use Google Drive to simulate GitHub's makeup with a master branch that will always work
+and experimental branches that need to be looked at before being merged. It would be harder
+to find differences between the files if I weren't using Git or GitHub. It would be easier
+for people to start using if they are unfamiliar with Git or GitHub.
+
