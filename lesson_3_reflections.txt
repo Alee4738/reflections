@@ -26,3 +26,10 @@ and experimental branches that need to be looked at before being merged. It woul
 to find differences between the files if I weren't using Git or GitHub. It would be easier
 for people to start using if they are unfamiliar with Git or GitHub.
 
+When would you want to make changes in a separate branch rather than directly in master?
+ What benefits does each approach have?
+You want to make changes in a separate branch to allow people to review your code in a pull 
+request before approving it and merging it into master. This allows people to know that master
+has been changed because otherwise they could pull master without knowing,
+which might cause some problems. The benefit to updating master directly is that it takes a lot
+less work.
