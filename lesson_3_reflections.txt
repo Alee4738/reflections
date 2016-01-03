@@ -8,3 +8,9 @@ You may be working on your repository, then someone else works on the remote.
 If Git automatically syncs your local with the remote, you may not know it, or 
 you it may interfere with what you're working on.
 
+Describe the differences between forks, clones, and branches.
+ When would you use one instead of another?
+Clones are copies of a repository from online (or offline) to your local machine. 
+Forks are clones From one repository on GitHub to another repository on GitHub. 
+Branches are paths of commits.
+
